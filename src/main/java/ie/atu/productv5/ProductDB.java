@@ -88,14 +88,14 @@ public class ProductDB {
         }
         else if (productCode.equalsIgnoreCase("horse")) {
                 Horse myHorse = new Horse();
-                myDog.setType("Dog");
-                myDog.setAge("12");
-                myDog.setBreed("Bulldog");
-                myDog.setPrice(420.00);
-                myDog.setVaccination(true);
-                myDog.setShedding("Regular");
-                myDog.setNeutered(true);
-                p = myDog;
+                myHorse.setType("Horse");
+                myHorse.setAge("12");
+                myHorse.setBreed("Cheshire Pony");
+                myHorse.setPrice(420.00);
+                myHorse.setDam("FemaleHorse");
+                myHorse.setSire("Stallion");
+                myHorse.setHeight(2.3);
+                p = myHorse;
         }
         return p;
     }
